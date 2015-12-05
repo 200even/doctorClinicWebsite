@@ -1,0 +1,41 @@
+﻿body {
+    background: black;
+    background: -webkit-linear-gradient(black, white);
+    background: -webkit-gradient(black, white);
+    background: -moz-linear-gradient(black, white);
+    opacity: 0.65;
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5 .header-title, .header-subtitle {
+    font-family: 'Syncopate', sans-serif;
+}
+
+.header-contact > h4 > a {
+    color: #FFF;
+}
+
+#logo {
+    height: 68px;
+    transform: translateY(10%);
+}
+
+.header-title {
+    font-weight:500;
+    margin-left: 70px;
+    white-space: nowrap;
+    color: #FFF;
+    font-size: x-large;
+    transform: translateY(5%);
+    
+}
+.header-subtitle {
+    margin-left: 70px;
+    white-space: nowrap;
+    color: #FFF;
+    font-size: large;
+}
+
+.header-contact {
+    color: #FFF;
+    font-size: large;
+}

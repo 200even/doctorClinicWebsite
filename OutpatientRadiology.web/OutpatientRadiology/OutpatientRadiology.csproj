@@ -22,7 +22,9 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\assets\css\site.css" />
     <Content Include="app\assets\images\homer.ico" />
+    <Content Include="app\assets\images\radiology.png" />
     <Content Include="app\components\about\about.html" />
     <Content Include="app\components\appointments\appointments.html" />
     <Content Include="app\components\contact\contact.html" />
@@ -864,9 +866,7 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="app\assets\css\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
