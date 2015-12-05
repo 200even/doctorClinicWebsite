@@ -10,13 +10,8 @@
     <link rel="shortcut icon" href="assets/images/homer.ico" type="image/x-icon" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/ui-bootstrap-csp.css" rel="stylesheet" />
-    <!-- Requires for HTML5 Routing Mode. Refer to appRoutes.ts. -->
-    <base href="/index.html" />
 </head>
-<body ng-app="app">
-    
-    
-    
+<body ng-app="drApp">
     <div class="container">
         <div id="content" ui-view=""></div>
     </div>
@@ -27,11 +22,11 @@
 
             <ul class="footerNav">
                 <li><a ui-sref="home">Home</a></li>
-                <li><span><a ui-sref="about">About Us</a></span></li>
+                <li><a ui-sref="about">About Us</a></li>
                 <li><a ui-sref="services">Services</a></li>
                 <li><a ui-sref="appointments">Appointments</a></li>
                 <li><a ui-sref="forms">Forms</a></li>
-                <li><a ui-sref="billPay">Pay Your Bill</a></li>
+                <li><a ui-sref="payBill">Pay Your Bill</a></li>
                 <li><a ui-sref="contact">Contact Us</a></li>
             </ul>
         </div>
@@ -63,24 +58,12 @@
                 <input type="submit" class="btn btn-default" value="Get Directions" />
             </form>
         </div>
-
-        <div>
-            <span class='st_sharethis_large' displayText='ShareThis'></span>
-            <span class='st_facebook_large' displayText='Facebook'></span>
-            <span class='st_twitter_large' displayText='Tweet'></span>
-            <span class='st_linkedin_large' displayText='LinkedIn'></span>
-            <span class='st_pinterest_large' displayText='Pinterest'></span>
-            <span class='st_email_large' displayText='Email'></span>
-        </div>
-
-
-
     </footer>
     <!--Scripts-->
     <script src="Scripts/angular.min.js"></script>
     <script src="Scripts/angular-ui-router.min.js"></script>
     <script src="Scripts/angular-animate.min.js"></script>
-    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
     <script src="app.js"></script>
     <!-- Google Analytics -->
 
@@ -94,8 +77,5 @@
   ga('send', 'pageview');
 
     </script>
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54f8ea2d1d7583bf" async="async"></script>
-    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 </body>
 </html>

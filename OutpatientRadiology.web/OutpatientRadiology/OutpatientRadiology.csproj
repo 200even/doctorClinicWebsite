@@ -22,14 +22,14 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\images\homer.ico" />
-    <Content Include="components\about\about.html" />
-    <Content Include="components\appointments\appointments.html" />
-    <Content Include="components\contact\contact.html" />
-    <Content Include="components\forms\forms.html" />
-    <Content Include="components\home\home.html" />
-    <Content Include="components\payBill\payBill.html" />
-    <Content Include="components\services\services.html" />
+    <Content Include="app\assets\images\homer.ico" />
+    <Content Include="app\components\about\about.html" />
+    <Content Include="app\components\appointments\appointments.html" />
+    <Content Include="app\components\contact\contact.html" />
+    <Content Include="app\components\forms\forms.html" />
+    <Content Include="app\components\home\home.html" />
+    <Content Include="app\components\payBill\payBill.html" />
+    <Content Include="app\components\services\services.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -841,8 +841,8 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="ng.module.ts" />
-    <TypeScriptCompile Include="ng.routes.ts" />
+    <TypeScriptCompile Include="app\ng.module.ts" />
+    <TypeScriptCompile Include="app\ng.routes.ts" />
     <TypeScriptCompile Include="Scripts\typings\angular-ui-bootstrap\angular-ui-bootstrap.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angular-ui-router\angular-ui-router.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
@@ -865,7 +865,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="assets\css\" />
+    <Folder Include="app\assets\css\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
